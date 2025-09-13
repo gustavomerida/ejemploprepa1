@@ -1,6 +1,7 @@
+#Programa que identifica números pares
 
-nombre = "Daniel"
+num = input("Escribe un número -->")
 
-print("Hola " + nombre)
+resultado = int(num) % 2
 
-print("Otra cosa")
+print(resultado)
